@@ -35,7 +35,7 @@ Results-driven and detail-oriented BSc (Hons) graduate (pending) in Business Int
 
 ---
 
-## Work Experience
+### Work Experience
 
 **IT Support Work Placement** - Boteti District Council
 *Letlhakane | Jan 2025 - Jun 2025*
@@ -48,7 +48,7 @@ Results-driven and detail-oriented BSc (Hons) graduate (pending) in Business Int
 
 ---
 
-## Education
+### Education
 
 **BSc (Hons) Business Intelligence and Data Analytics**
 *Botswana School of Business Sciences (BAC) | University of Sunderland - Francistown | Jul 2022 - May 2026*
@@ -59,7 +59,7 @@ Results-driven and detail-oriented BSc (Hons) graduate (pending) in Business Int
 
 ---
 
-## Certifications
+### Certifications
 
 **Data Visualization V8 - Developer Certification**
 *freeCodeCamp.org | June 2026*
@@ -73,7 +73,7 @@ Results-driven and detail-oriented BSc (Hons) graduate (pending) in Business Int
 
 ---
 
-## Additional Information
+### Additional Information
 
 - **Driver's License:** Class B, issued 12 July 2024
 - **Languages:** English (Proficient), Setswana (Native)
@@ -133,13 +133,14 @@ A short description of this project.
 ---
 
 ## Contact
-
+ 
 I'm happy to connect — reach out through any of the links below.
-
+ 
 <p>
-  <a href="https://www.linkedin.com/in/your-profile">LinkedIn</a> ·
-  <a href="mailto:you@example.com">Email</a> ·
-  <a href="https://github.com/your-username">GitHub</a>
+  <a href="https://www.linkedin.com/in/ofilwe-gabaitse/">LinkedIn</a> ·
+  <a href="mailto:ofilwegabaitse@gmail.com">Email</a> ·
+  <a href="https://github.com/OFILWE560">GitHub</a> ·
+  <a href="tel:+26777555757">+267 77 555 757</a>
 </p>
 
 <div align="center">
