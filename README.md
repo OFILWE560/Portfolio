@@ -1,7 +1,9 @@
 <div align="center">
+
+
 <img src="images/profile.jpg" alt="Profile picture" width="160" height="160" style="border-radius:50%; object-fit:cover;" />
 
-Ofilwe Gabaitse
+# Ofilwe Gabaitse
 
 ### Data Analyst
 
