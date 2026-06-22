@@ -31,7 +31,71 @@
 
 ## About
 
-A few sentences about who you are, what you study or do, and what you're looking for (internship, job, collaborators — whatever fits). Keep it short; this is the elevator pitch.
+Results-driven and detail-oriented BSc (Hons) soon to be graduate in Business Intelligence and Data Analytics with a strong 
+foundation in data analysis, Python programming, database management, and IT operations. I bring practical experience 
+gained through a six-month industry attachment at Boteti District Council, where I provided IT user support, managed 
+technical documentation, and handled cross-departmental communication in a professional environment. My academic 
+journey has equipped me with both technical skills, including Power BI, SQL, Microsoft Excel, Microsoft Access and 
+Machine Learning as well as transferable competencies such as effective communication, report writing, and the ability to 
+work efficiently under pressure. I am a motivated, professionally presented individual eager to apply my skills and contribute 
+meaningfully in any dynamic and results-oriented organization. 
+ 
+ 
+WORK EXPERIENCE  
+ 
+Boteti District Council | IT Support Work Placement  Letlhakane | 01.2025 - 06.2025 
+ Completed an academically required six-month industrial attachment as part of the BSc (Hons) programme, 
+formally assessed by both workplace mentors and college supervisors. 
+ Supported daily IT operations including user support, troubleshooting hardware and software issues, and assisting 
+with network configuration tasks. 
+ Handled multiple phone calls daily from various departments across the Council, directing queries and ensuring 
+timely resolution of technical issues. 
+ Prepared detailed and professional daily technical reports documenting issues, resolutions, and system status. 
+ Assisted with domain setups, system functionality testing, and maintenance of technical support documentation. 
+ 
+ 
+EDUCATION  
+ 
+BSc (Hons) Business Intelligence and Data Analytics 
+Bachelor’s Degree Francistown | 07.2022 - 05.2026 
+ 
+Botswana School of Business Sciences (BAC) | University of Sunderland 
+ Maintained a consistent record of passing all modules across four years, progressing each year with the full 
+recommendation of the Assessment Board. Awaiting my forth year second semester results. 
+ Studied core areas including Data Warehousing, Advanced Data Analytics, Intelligent Systems, Machine 
+Learning and AI, Python Programming, and Business Intelligence Strategy. 
+ Extracurricular involvement: Graphic Design, Innovation Competition Participant, SRC Secretary General. 
+ 
+
+CERTIFICATIONS 
+Data Visualization V8 - Developer Certification 
+freeCodeCamp.org 
+June 2026 
+• Completed June 7, 2026, representing approximately 300 hours of coursework covering data visualization 
+principles, charting, and dashboard design. 
+• Credential verification: freecodecamp.org/certification/fcc-b5c784e0-463b-4219-9a46-2333139caa88/data
+visualization 
+Python - Developer Certification     
+freeCodeCamp.org 
+June 2026 
+• Completed June 7, 2026, representing approximately 300 hours of coursework covering Python 
+programming fundamentals and applied problem solving. 
+• Credential verification: freecodecamp.org/certification/fcc-b5c784e0-463b-4219-9a46
+2333139caa88/python-v9 
+
+SKILLS 
+Technical Skills 
+Power BI   •   Microsoft Excel   •   Python   •   SQL   •   HTML & CSS   •   Bootstrap & JavaScript •   Jupyter 
+Notebook •   Machine Learning & AI   •   Visual Paradigm   •   Data Visualization   •   Dashboard Design   •   
+Database Concepts   •   System Design (UML)   •   Web Development   •   Python Libraries   •   Python 
+Frameworks   •   Basic UI/UX Principles 
+Soft Skills 
+Effective Communication   •   Report Writing   •   Active Listening   •   Teamwork   •   Data Storytelling   •   
+Problem Solving   •   Multitasking Under Pressure 
+
+ADDITIONAL INFORMATION 
+ Driver's License: Class B, issued 12 July 2024. 
+ Languages: English (Proficient), Setswana (Native).
 
 ---
 
