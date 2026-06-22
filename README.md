@@ -19,11 +19,8 @@
 
 <!-- SOCIAL / CONTACT BADGES -->
 <p>
-  <a href="https://www.linkedin.com/in/your-profile">
+  <a href="[https://www.linkedin.com/in/your-profile](https://www.linkedin.com/in/ofilwe-gabaitse/)">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="mailto:you@example.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
   <a href="https://github.com/your-username">
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
