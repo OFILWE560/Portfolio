@@ -5,7 +5,7 @@
 
 <img src="images/profile.jpg" alt="Profile picture" width="200" height="200" style="border-radius:50%; object-fit:cover;" />
 
-<h2>Ofilwe Gabaitse</h2>
+<h2>OFILWE GABAITSE</h2>
 <h4>Data Analyst</h4>
 
 <a href="https://www.linkedin.com/in/ofilwe-gabaitse/">
@@ -43,58 +43,31 @@
 
 <hr>
 
-<h2 id="about">About</h2>
+<h2 id="about">ABOUT</h2>
 
-<p>Results-driven and detail-oriented BSc (Hons) graduate (pending) in Business Intelligence and Data Analytics, with a strong foundation in data analysis, Python programming, database management, and IT operations. I bring practical experience gained through a six-month industry attachment at Boteti District Council, where I provided IT user support, managed technical documentation, and handled cross-departmental communication in a professional environment. My academic journey has equipped me with both technical skills, including Power BI, SQL, Microsoft Excel, Microsoft Access, and Machine Learning, as well as transferable competencies such as effective communication, report writing, and the ability to work efficiently under pressure. I am a motivated, professionally presented individual eager to apply my skills and contribute meaningfully to any dynamic, results-oriented organization.</p>
+<p>I'm a final-year Business Intelligence and Data Analytics student with a passion for turning raw data into meaningful insights. My work sits at the intersection of analytical thinking and practical problem-solving — whether that's writing clean Python pipelines, building visual dashboards, or applying machine learning to real-world questions. This portfolio showcases projects completed across different levels of complexity, from foundational data work to predictive modeling and NLP.</p>
 
-<h3>Work Experience</h3>
+<h3>Codveda Technologies Internship Projects</h3>
 
-<p><strong>IT Support Work Placement</strong> — Boteti District Council<br>
-<em>Letlhakane | Jan 2025 – Jun 2025</em></p>
+<p>The following projects were completed as part of a virtual data analytics internship with Codveda Technologies, a company specializing in IT solutions including AI/ML automation and data analysis. The internship was structured across three progressive levels, and the projects below reflect work done across all three.</p>
 
-<ul>
-<li>Completed an academically required six-month industrial attachment as part of the BSc (Hons) programme, formally assessed by both workplace mentors and college supervisors.</li>
-<li>Supported daily IT operations including user support, troubleshooting hardware and software issues, and assisting with network configuration tasks.</li>
-<li>Handled multiple phone calls daily from various departments across the Council, directing queries and ensuring timely resolution of technical issues.</li>
-<li>Prepared detailed and professional daily technical reports documenting issues, resolutions, and system status.</li>
-<li>Assisted with domain setups, system functionality testing, and maintenance of technical support documentation.</li>
-</ul>
+<h4>Level 1: Foundational Analytics</h4>
 
-<h3>Education</h3>
+<p><strong>Data Cleaning and Preprocessing</strong> - Worked with a raw CSV dataset containing missing values, duplicates, and inconsistent formatting. Used Python and pandas to handle missing data through imputation and removal, eliminate duplicate records, and standardize formats across date and categorical fields.</p>
 
-<p><strong>BSc (Hons) Business Intelligence and Data Analytics</strong><br>
-<em>Botswana School of Business Sciences (BAC) | University of Sunderland — Francistown | Jul 2022 – May 2026</em></p>
+<p><strong>Exploratory Data Analysis (EDA)</strong> - Conducted a full exploratory analysis to surface patterns and trends in a dataset. Computed summary statistics and produced histograms, boxplots, and scatter plots using matplotlib and seaborn, including correlation analysis across numerical features.</p>
 
-<ul>
-<li>Maintained a consistent record of passing all modules across four years, progressing each year with the full recommendation of the Assessment Board. Awaiting fourth-year, second-semester results.</li>
-<li>Studied core areas including Data Warehousing, Advanced Data Analytics, Intelligent Systems, Machine Learning and AI, Python Programming, and Business Intelligence Strategy.</li>
-<li>Extracurricular involvement: Graphic Design, Innovation Competition Participant, SRC Secretary General.</li>
-</ul>
+<h4>Level 2: Intermediate Analysis</h4>
 
-<h3>Certifications</h3>
+<p><strong>Time Series Analysis</strong> - Analyzed a time-series dataset to detect trends and seasonality. Used statsmodels to decompose the series into its constituent components and applied moving average smoothing to clarify underlying patterns.</p>
 
-<p><strong>Data Visualization V8 — Developer Certification</strong><br>
-<em>freeCodeCamp.org | June 2026</em></p>
-<ul>
-<li>Completed June 7, 2026, representing approximately 300 hours of coursework covering data visualization principles, charting, and dashboard design.</li>
-<li><a href="https://www.freecodecamp.org/certification/fcc-b5c784e0-463b-4219-9a46-2333139caa88/data-visualization">Credential verification</a></li>
-</ul>
+<p><strong>Clustering Analysis (K-Means)</strong> - Applied K-Means clustering to group data points by feature similarity. Standardized the dataset with StandardScaler, used the elbow method to determine the optimal number of clusters, and visualized the results with 2D scatter plots.</p>
 
-<p><strong>Python — Developer Certification</strong><br>
-<em>freeCodeCamp.org | June 2026</em></p>
-<ul>
-<li>Completed June 7, 2026, representing approximately 300 hours of coursework covering Python programming fundamentals and applied problem solving.</li>
-<li><a href="https://www.freecodecamp.org/certification/fcc-b5c784e0-463b-4219-9a46-2333139caa88/python-v9">Credential verification</a></li>
-</ul>
+<h4>Level 3: Advanced Projects</h4>
 
-<h3>Additional Information</h3>
+<p><strong>Predictive Modeling (Classification)</strong> - Built and evaluated multiple classification models - including Decision Trees, Logistic Regression, and Random Forest - to predict categorical outcomes. Assessed performance using accuracy, precision, recall, and F1-score, and optimized the best-performing model through grid search hyperparameter tuning.</p>
 
-<ul>
-<li><strong>Driver's License:</strong> Class B, issued 12 July 2024</li>
-<li><strong>Languages:</strong> English (Proficient), Setswana (Native)</li>
-</ul>
-
-<hr>
+<p><strong>Sentiment Analysis (NLP)</strong> - Performed sentiment analysis on text data using nltk and TextBlob. Preprocessed the corpus through tokenization, stopword removal, and lemmatization, then classified sentiments and visualized frequency distributions with word clouds.</p>
 
 <h2 id="skills">Skills</h2>
 
@@ -122,7 +95,7 @@
 
 <hr>
 
-<h2 id="projects">Projects</h2>
+<h2 id="projects">PROJECTS</h2>
 
 <h3><a href="https://github.com/OFILWE560/project-one">Project One Name</a></h3>
 
@@ -154,7 +127,7 @@
 
 <hr>
 
-<h2 id="contact">Contact</h2>
+<h2 id="contact">CONTACT</h2>
 
 <p>I'm happy to connect — reach out through any of the links below.</p>
 
