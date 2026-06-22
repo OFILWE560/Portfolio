@@ -31,16 +31,14 @@
 
 ## About
 
-## About
-
-Results-driven and detail-oriented BSc (Hons) graduate (pending) in Business Intelligence and Data Analytics, with a strong foundation in data analysis, Python programming, database management, and IT operations. I bring practical experience gained through a six-month industry attachment at Boteti District Council, where I provided IT user support, managed technical documentation, and handled cross-departmental communication in a professional environment. My academic journey has equipped me with both technical skills — including Power BI, SQL, Microsoft Excel, Microsoft Access, and Machine Learning — as well as transferable competencies such as effective communication, report writing, and the ability to work efficiently under pressure. I am a motivated, professionally presented individual eager to apply my skills and contribute meaningfully to any dynamic, results-oriented organization.
+Results-driven and detail-oriented BSc (Hons) graduate (pending) in Business Intelligence and Data Analytics, with a strong foundation in data analysis, Python programming, database management, and IT operations. I bring practical experience gained through a six-month industry attachment at Boteti District Council, where I provided IT user support, managed technical documentation, and handled cross-departmental communication in a professional environment. My academic journey has equipped me with both technical skills, including Power BI, SQL, Microsoft Excel, Microsoft Access, and Machine Learning as well as transferable competencies such as effective communication, report writing, and the ability to work efficiently under pressure. I am a motivated, professionally presented individual eager to apply my skills and contribute meaningfully to any dynamic, results-oriented organization.
 
 ---
 
 ## Work Experience
 
-**IT Support Work Placement** — Boteti District Council
-*Letlhakane | Jan 2025 – Jun 2025*
+**IT Support Work Placement** - Boteti District Council
+*Letlhakane | Jan 2025 - Jun 2025*
 
 - Completed an academically required six-month industrial attachment as part of the BSc (Hons) programme, formally assessed by both workplace mentors and college supervisors.
 - Supported daily IT operations including user support, troubleshooting hardware and software issues, and assisting with network configuration tasks.
@@ -53,7 +51,7 @@ Results-driven and detail-oriented BSc (Hons) graduate (pending) in Business Int
 ## Education
 
 **BSc (Hons) Business Intelligence and Data Analytics**
-*Botswana School of Business Sciences (BAC) | University of Sunderland — Francistown | Jul 2022 – May 2026*
+*Botswana School of Business Sciences (BAC) | University of Sunderland - Francistown | Jul 2022 - May 2026*
 
 - Maintained a consistent record of passing all modules across four years, progressing each year with the full recommendation of the Assessment Board. Awaiting fourth-year, second-semester results.
 - Studied core areas including Data Warehousing, Advanced Data Analytics, Intelligent Systems, Machine Learning and AI, Python Programming, and Business Intelligence Strategy.
@@ -63,25 +61,15 @@ Results-driven and detail-oriented BSc (Hons) graduate (pending) in Business Int
 
 ## Certifications
 
-**Data Visualization V8 — Developer Certification**
+**Data Visualization V8 - Developer Certification**
 *freeCodeCamp.org | June 2026*
 - Completed June 7, 2026, representing approximately 300 hours of coursework covering data visualization principles, charting, and dashboard design.
 - [Credential verification](https://www.freecodecamp.org/certification/fcc-b5c784e0-463b-4219-9a46-2333139caa88/data-visualization)
 
-**Python — Developer Certification**
+**Python - Developer Certification**
 *freeCodeCamp.org | June 2026*
 - Completed June 7, 2026, representing approximately 300 hours of coursework covering Python programming fundamentals and applied problem solving.
 - [Credential verification](https://www.freecodecamp.org/certification/fcc-b5c784e0-463b-4219-9a46-2333139caa88/python-v9)
-
----
-
-## Skills
-
-**Technical Skills**
-Power BI • Microsoft Excel • Python • SQL • HTML & CSS • Bootstrap & JavaScript • Jupyter Notebook • Machine Learning & AI • Visual Paradigm • Data Visualization • Dashboard Design • Database Concepts • System Design (UML) • Web Development • Python Libraries • Python Frameworks • Basic UI/UX Principles
-
-**Soft Skills**
-Effective Communication • Report Writing • Active Listening • Teamwork • Data Storytelling • Problem Solving • Multitasking Under Pressure
 
 ---
 
