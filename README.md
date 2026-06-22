@@ -1,8 +1,4 @@
 <div align="center">
-
-<!-- PROFILE PICTURE
-     Put your photo in an "images" folder in the repo root,
-     name it profile.jpg (or change the path below) -->
 <img src="images/profile.jpg" alt="Profile picture" width="160" height="160" style="border-radius:50%; object-fit:cover;" />
 
 # Ofilwe Gabaitse
