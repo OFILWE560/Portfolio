@@ -28,7 +28,7 @@
 
 ---
 
-## About
+## ABOUT
 
 Results-driven and detail-oriented BSc (Hons) graduate (pending) in Business Intelligence and Data Analytics, with a strong foundation in data analysis, Python programming, database management, and IT operations. I bring practical experience gained through a six-month industry attachment at Boteti District Council, where I provided IT user support, managed technical documentation, and handled cross-departmental communication in a professional environment. My academic journey has equipped me with both technical skills, including Power BI, SQL, Microsoft Excel, Microsoft Access, and Machine Learning as well as transferable competencies such as effective communication, report writing, and the ability to work efficiently under pressure. I am a motivated, professionally presented individual eager to apply my skills and contribute meaningfully to any dynamic, results-oriented organization.
 
@@ -79,21 +79,31 @@ Results-driven and detail-oriented BSc (Hons) graduate (pending) in Business Int
 
 ---
 
-## Skills
-
+## SKILLS
+ 
 <p>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black" />
+  <img src="https://img.shields.io/badge/Microsoft_Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Jupyter_Notebook-F37626?style=flat-square&logo=jupyter&logoColor=white" />
+  <img src="https://img.shields.io/badge/Machine_Learning_%26_AI-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" />
+  <img src="https://img.shields.io/badge/Visual_Paradigm-2E3440?style=flat-square&logoColor=white" />
+  <img src="https://img.shields.io/badge/Data_Visualization-6A1B9A?style=flat-square&logoColor=white" />
 </p>
-
+**Python Libraries**
+ 
+<p>
+  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/Matplotlib-11557C?style=flat-square&logo=plotly&logoColor=white" />
+  <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" />
+</p>
 <!-- Swap the badges above for your own stack. Find more at https://shields.io -->
 
 ---
 
-## Projects
+## PROJECTS
 
 ### [Project One Name](https://github.com/your-username/project-one)
 
@@ -131,7 +141,7 @@ A short description of this project.
 
 ---
 
-## Contact
+## CONTACT
  
 I'm happy to connect - reach out through any of the links below.
  
