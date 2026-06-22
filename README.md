@@ -5,9 +5,9 @@
      name it profile.jpg (or change the path below) -->
 <img src="images/profile.jpg" alt="Profile picture" width="160" height="160" style="border-radius:50%; object-fit:cover;" />
 
-# Your Name
+# Ofilwe Gabaitse
 
-### Your Title — e.g. Web Developer · UX Designer · CS Student
+### Data Analyst
 
 <!-- NAV LINKS — jump to sections on this page -->
 <p>
