@@ -17,7 +17,7 @@
 
 <!-- SOCIAL / CONTACT BADGES -->
 <p>
-  <a href="(https://www.linkedin.com/in/ofilwe-gabaitse/)">
+  <a href="https://www.linkedin.com/in/ofilwe-gabaitse/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   <a href="https://github.com/your-username">
