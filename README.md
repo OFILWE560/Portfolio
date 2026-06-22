@@ -1,6 +1,5 @@
 <div align="center">
 
-
 <img src="images/profile.jpg" alt="Profile picture" width="160" height="160" style="border-radius:50%; object-fit:cover;" />
 
 # Ofilwe Gabaitse
@@ -134,7 +133,7 @@ A short description of this project.
 
 ## Contact
  
-I'm happy to connect — reach out through any of the links below.
+I'm happy to connect - reach out through any of the links below.
  
 <p>
   <a href="https://www.linkedin.com/in/ofilwe-gabaitse/">LinkedIn</a> ·
