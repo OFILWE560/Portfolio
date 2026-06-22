@@ -1,12 +1,12 @@
 <table width="100%">
 <tr>
 
-<td width="240" valign="top" align="center">
+<td width="300" valign="top" align="center">
 
 <img src="images/profile.jpg" alt="Profile picture" width="200" height="200" style="border-radius:50%; object-fit:cover;" />
 
 <h2>OFILWE GABAITSE</h2>
-<h4>Data Analyst</h4>
+<h3>Data Analyst</h3>
 
 <a href="https://www.linkedin.com/in/ofilwe-gabaitse/">
 <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
@@ -45,7 +45,7 @@
 
 <h2 id="about">ABOUT</h2>
 
-<p>I'm a final-year Business Intelligence and Data Analytics student with a passion for turning raw data into meaningful insights. My work sits at the intersection of analytical thinking and practical problem-solving — whether that's writing clean Python pipelines, building visual dashboards, or applying machine learning to real-world questions. This portfolio showcases projects completed across different levels of complexity, from foundational data work to predictive modeling and NLP.</p>
+<p>I'm a final-year Business Intelligence and Data Analytics student with a passion for turning raw data into meaningful insights. My work sits at the intersection of analytical thinking and practical problem-solving, whether that's writing clean Python pipelines, building visual dashboards, or applying machine learning to real-world questions. This portfolio showcases projects completed across different levels of complexity, from foundational data work to predictive modeling and NLP.</p>
 
 <h3>Codveda Technologies Internship Projects</h3>
 
@@ -69,8 +69,7 @@
 
 <p><strong>Sentiment Analysis (NLP)</strong> - Performed sentiment analysis on text data using nltk and TextBlob. Preprocessed the corpus through tokenization, stopword removal, and lemmatization, then classified sentiments and visualized frequency distributions with word clouds.</p>
 
-<h2 id="skills">Skills</h2>
-
+<h2 id="skills">SKILLS</h2>
 <p>
 <img src="https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black" />
 <img src="https://img.shields.io/badge/Microsoft_Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white" />
@@ -78,17 +77,19 @@
 <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
 <img src="https://img.shields.io/badge/Jupyter_Notebook-F37626?style=flat-square&logo=jupyter&logoColor=white" />
 <img src="https://img.shields.io/badge/Machine_Learning_%26_AI-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" />
-<img src="https://img.shields.io/badge/Visual_Paradigm-2E3440?style=flat-square&logoColor=white" />
 <img src="https://img.shields.io/badge/Data_Visualization-6A1B9A?style=flat-square&logoColor=white" />
+<img src="https://img.shields.io/badge/NLP-8E24AA?style=flat-square&logo=buffer&logoColor=white" />
 </p>
-
 <p><strong>Python Libraries</strong></p>
-
 <p>
 <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" />
 <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
 <img src="https://img.shields.io/badge/Matplotlib-11557C?style=flat-square&logo=plotly&logoColor=white" />
 <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" />
+<img src="https://img.shields.io/badge/Seaborn-4C72B0?style=flat-square&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/Statsmodels-3A6186?style=flat-square&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/NLTK-154F3C?style=flat-square&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/TextBlob-2196F3?style=flat-square&logo=python&logoColor=white" />
 </p>
 
 <!-- Add or swap badges anytime — find icons at https://shields.io and https://simpleicons.org -->
@@ -129,7 +130,7 @@
 
 <h2 id="contact">CONTACT</h2>
 
-<p>I'm happy to connect — reach out through any of the links below.</p>
+<p>I'm happy to connect, reach out through any of the links below.</p>
 
 <p>
 <a href="https://www.linkedin.com/in/ofilwe-gabaitse/">LinkedIn</a> ·
