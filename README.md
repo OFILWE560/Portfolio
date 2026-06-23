@@ -1,4 +1,8 @@
-<table width="2000">
+<p align="center">
+  <img src="images/cover.jpg" alt="Cover banner" width="100%" />
+</p>
+
+<table width="100%">
 <tr>
 
 <td width="300" valign="top" align="center">
@@ -43,7 +47,7 @@
 
 <hr>
 
-<h2 id="about">ABOUT</h2>
+<h2 id="about" style="color:#1a7f37;">ABOUT</h2>
 
 <p>I'm a final-year Business Intelligence and Data Analytics student with a passion for turning raw data into meaningful insights. My work sits at the intersection of analytical thinking and practical problem-solving, whether that's writing clean Python pipelines, building visual dashboards, or applying machine learning to real-world questions. This portfolio showcases projects completed across different levels of complexity, from foundational data work to predictive modeling and NLP.</p>
 
@@ -69,7 +73,7 @@
 
 <p><strong>Sentiment Analysis (NLP)</strong> - Performed sentiment analysis on text data using nltk and TextBlob. Preprocessed the corpus through tokenization, stopword removal, and lemmatization, then classified sentiments and visualized frequency distributions with word clouds.</p>
 
-<h2 id="skills">SKILLS</h2>
+<h2 id="skills" style="color:#1a7f37;">SKILLS</h2>
 <p>
 <img src="https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black" />
 <img src="https://img.shields.io/badge/Microsoft_Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white" />
@@ -96,7 +100,7 @@
 
 <hr>
 
-<h2 id="projects">PROJECTS</h2>
+<h2 id="projects" style="color:#1a7f37;">PROJECTS</h2>
 
 <h3><a href="https://github.com/OFILWE560/project-one">Project One Name</a></h3>
 
@@ -128,7 +132,7 @@
 
 <hr>
 
-<h2 id="contact">CONTACT</h2>
+<h2 id="contact" style="color:#1a7f37;">CONTACT</h2>
 
 <p>I'm happy to connect, reach out through any of the links below.</p>
 
