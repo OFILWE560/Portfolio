@@ -1,4 +1,4 @@
-<table width="1200">
+<table width="2000">
 <tr>
 
 <td width="300" valign="top" align="center">
