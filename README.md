@@ -37,7 +37,7 @@
 <td valign="top" style="padding:24px;">
 
 <p align="right">
-<img src="images/cover.jpg" alt="Cover banner" width="340" style="border-radius:8px; max-width:100%;" />
+<img src="images/cover.jpg" alt="Cover banner" width="1140" height="400" style="border-radius:8px; max-width:100%;" />
 </p>
 
 <p style="font-size:1.6em; margin-top:4px;">
@@ -59,21 +59,21 @@
 
 <h4>Level 1: Foundational Analytics</h4>
 
-<p><strong>Data Cleaning and Preprocessing</strong> - Worked with a raw CSV dataset containing missing values, duplicates, and inconsistent formatting. Used Python and pandas to handle missing data through imputation and removal, eliminate duplicate records, and standardize formats across date and categorical fields.</p>
+<p><strong>Data Cleaning and Preprocessing</strong> </p>
 
-<p><strong>Exploratory Data Analysis (EDA)</strong> - Conducted a full exploratory analysis to surface patterns and trends in a dataset. Computed summary statistics and produced histograms, boxplots, and scatter plots using matplotlib and seaborn, including correlation analysis across numerical features.</p>
+<p><strong>Exploratory Data Analysis (EDA)</strong> </p>
 
 <h4>Level 2: Intermediate Analysis</h4>
 
-<p><strong>Time Series Analysis</strong> - Analyzed a time-series dataset to detect trends and seasonality. Used statsmodels to decompose the series into its constituent components and applied moving average smoothing to clarify underlying patterns.</p>
+<p><strong>Time Series Analysis</strong> </p>
 
-<p><strong>Clustering Analysis (K-Means)</strong> - Applied K-Means clustering to group data points by feature similarity. Standardized the dataset with StandardScaler, used the elbow method to determine the optimal number of clusters, and visualized the results with 2D scatter plots.</p>
+<p><strong>Clustering Analysis (K-Means)</strong> </p>
 
 <h4>Level 3: Advanced Projects</h4>
 
-<p><strong>Predictive Modeling (Classification)</strong> - Built and evaluated multiple classification models - including Decision Trees, Logistic Regression, and Random Forest - to predict categorical outcomes. Assessed performance using accuracy, precision, recall, and F1-score, and optimized the best-performing model through grid search hyperparameter tuning.</p>
+<p><strong>Predictive Modeling (Classification)</strong> </p>
 
-<p><strong>Sentiment Analysis (NLP)</strong> - Performed sentiment analysis on text data using nltk and TextBlob. Preprocessed the corpus through tokenization, stopword removal, and lemmatization, then classified sentiments and visualized frequency distributions with word clouds.</p>
+<p><strong>Sentiment Analysis (NLP)</strong> </p>
 
 <h2 id="skills" style="color:#1a7f37;">SKILLS</h2>
 <p>
@@ -104,15 +104,40 @@
 
 <h2 id="projects" style="color:#1a7f37;">PROJECTS</h2>
 
-<h3>House Price Prediction — Exploratory Data Analysis</h3>
+<h3>House Price Prediction: Exploratory Data Analysis</h3>
 
-<a href="house-price-prediction/house_price_prediction.md">
-<img src="house-price-prediction/heatmap.png" alt="Correlation heatmap of housing features" width="550" style="border-radius:6px;" />
-</a>
+<p>Every data analytics project follows a lifecycle: <strong>define the problem → collect the data → clean it → explore it → analyze/model it → communicate the findings</strong>. This project lives at the cleaning-and-exploration stage, the bridge between raw, messy data and a model anyone could actually trust. Skip this stage and you're modeling on guesswork; do it properly, and every decision made later (which features matter, which model to pick, how confident to be in the result) becomes evidence-based instead of a shot in the dark. Working with the classic 506-row Boston housing dataset, I started with the unglamorous but essential basics checking data types, scanning for missing values and duplicates, standardizing column names the kind of housekeeping that, if skipped, quietly corrupts everything built on top of it. From there, the exploration below began.</p>
 
-<p>A full EDA on the classic Boston housing dataset (506 records, 14 features). Covers data cleaning and missing-value imputation, distribution and outlier checks via histograms and boxplots, and a correlation study ranking which features most strongly drive median home value (MEDV) — number of rooms (RM) and % lower-status population (LSTAT) turned out to be the two biggest predictors.</p>
+<h4>1. Distribution Analysis</h4>
+<img src="house_price_prediction/histogram.png" alt="Histograms of all 14 housing features" width="600" style="border-radius:6px;" />
+<p>This is the first thing any analyst should do with a new dataset: look at the shape of every variable at once. Histograms reveal whether a feature is roughly symmetric, skewed, or clustered into spikes, and that shape decides what you can safely do with the data later, a heavily skewed feature like CRIM, for instance, usually needs a log transform before it's fed into a model. <strong>Benefit:</strong> it surfaces these quirks in seconds, before they quietly break a model further down the line.</p>
+
+<h4>2. Outlier Detection</h4>
+<img src="house_price_prediction/boxplot.png" alt="Boxplots of all 14 housing features" width="600" style="border-radius:6px;" />
+<p>Boxplots compress each feature into five key numbers, minimum, lower quartile, median, upper quartile, maximum and flag anything beyond that range as a potential outlier. Outliers aren't automatically "bad data"; sometimes they're the most interesting rows in the set. But an analyst needs to know they exist before deciding whether to keep, cap, or remove them. <strong>Benefit:</strong> several features here (CRIM, ZN, B) showed sharp outliers, flagging exactly where extra care would be needed before modeling.</p>
+
+<h4>3. Group Comparison</h4>
+<img src="house_price_prediction/boxplot2.png" alt="Boxplot comparing home value by Charles River proximity" width="480" style="border-radius:6px;" />
+<p>Sometimes the most useful question isn't "what's the distribution?" but "does this category change the outcome?" Here I compared home values for properties that border the Charles River against those that don't. <strong>Benefit:</strong> the visual makes the price gap immediately obvious, riverside homes trend noticeably higher turning a simple yes/no column into a real pricing signal worth keeping for any future model.</p>
+
+<h4>4. Correlation Mapping</h4>
+<img src="house_price_prediction/heatmap.png" alt="Correlation heatmap of all housing features" width="600" style="border-radius:6px;" />
+<p>A correlation heatmap is the analyst's shortcut for spotting relationships across an entire dataset at a glance color does the work that scanning dozens of numbers can't. Deep red and deep blue cells call out features that move strongly together, while pale cells confirm two variables barely affect each other. <strong>Benefit:</strong> beyond highlighting what drives price, it also exposes risky overlaps, TAX and RAD correlate at 0.91, a warning sign for multicollinearity that any modeling step would need to account for.</p>
+
+<h4>5. Feature Ranking</h4>
+<img src="house_price_prediction/output_15_1.png" alt="Bar chart ranking feature correlation with home value" width="600" style="border-radius:6px;" />
+<p>Once you know features are related to each other, the next question is "related to what matters?" This chart ranks every feature purely by how strongly it correlates with home value (MEDV), from strongest to weakest. <strong>Benefit:</strong> it turns a 13-feature dataset into a clear shortlist, RM (rooms) and LSTAT (% lower-status population) stand out as the two strongest levers on price, exactly the kind of prioritization that keeps a modeling phase focused instead of throwing every column at the wall.</p>
+
+<h4>6. Relationship Confirmation</h4>
+<img src="house_price_prediction/scatterplot.png" alt="Scatterplots with regression lines for the top four correlated features" width="600" style="border-radius:6px;" />
+<p>Correlation gives you a number; a scatterplot shows the actual shape of that relationship, and shape matters, because a straight-line relationship is treated very differently from a curved one. Plotting the four strongest features against price, with a regression line over each, confirms whether that correlation number reflects something genuinely linear or something more complicated. <strong>Benefit:</strong> it validates that RM and LSTAT really do trend linearly with price, giving real confidence to use them as-is in a future linear model.</p>
+
+<h4>7. Multivariate View</h4>
+<img src="house_price_prediction/pairplot.png" alt="Pairplot of rooms, lower-status population, pupil-teacher ratio and home value" width="600" style="border-radius:6px;" />
+<p>Real-world outcomes are rarely explained by one variable in isolation, so the final step zooms out to see several features at once. A pairplot lays every pairwise relationship side by side, with each feature's own distribution running down the diagonal. <strong>Benefit:</strong> it's the clearest single view of how rooms, deprivation level, and school staffing ratios jointly shape price, exactly the kind of summary that makes the case for which features deserve to carry into a predictive model next.</p>
+
 <p><strong>Built with:</strong> Python · pandas · seaborn · matplotlib</p>
-<p><a href="house-price-prediction/house_price_prediction.md">View Full Notebook →</a></p>
+<p><a href="house_price_prediction/house_price_prediction.md">View Full Notebook →</a></p>
 
 <br>
 
