@@ -1,14 +1,14 @@
 <div style="width:100vw; position:relative; left:50%; right:50%; margin-left:-50vw; margin-right:-50vw;">
 
-<table width="100%" style="width:80%; border-collapse:collapse; table-layout:fixed;">
+<table width="100%" style="width:100%; border-collapse:collapse; table-layout:fixed;">
 <tr>
 
-<td width="28%" valign="top" align="center" style="padding:24px;">
+<td width="22%" valign="top" align="center" style="padding:24px; background-color:#000000; color:#ffffff;">
 
 <img src="images/profile.jpg" alt="Profile picture" width="160" height="160" style="border-radius:50%; object-fit:cover;" />
 
-<h2>OFILWE GABAITSE</h2>
-<h3>Data Analyst</h3>
+<h2 style="color:#ffffff;">OFILWE GABAITSE</h2>
+<h3 style="color:#ffffff;">Data Analyst</h3>
 
 <a href="https://www.linkedin.com/in/ofilwe-gabaitse/">
 <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
@@ -23,12 +23,12 @@
 <br><br>
 
 <a href="https://github.com/OFILWE560">
-<img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
+<img src="https://img.shields.io/badge/GitHub-white?style=for-the-badge&logo=github&logoColor=black" />
 </a>
 
 <br><br>
 
-<a href="tel:+26777555757">📞 +267 77 555 757</a>
+<a href="tel:+26777555757" style="color:#ffffff;">📞 +267 77 555 757</a>
 
 </td>
 
@@ -37,7 +37,7 @@
 <td valign="top" style="padding:24px;">
 
 <p align="right">
-<img src="images/cover.jpg" alt="Cover banner" width="880" height="360" style="border-radius:12px; max-width:100%;" />
+<img src="images/cover.jpg" alt="Cover banner" width="340" style="border-radius:8px; max-width:100%;" />
 </p>
 
 <p style="font-size:1.6em; margin-top:4px;">
