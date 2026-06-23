@@ -30,7 +30,7 @@
 
 </td>
 
-<td width="20"></td>
+<td width="40"></td>
 
 <td valign="top">
 
