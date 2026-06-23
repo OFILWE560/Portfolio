@@ -3,7 +3,7 @@
 <table width="100%" style="width:80%; border-collapse:collapse; table-layout:fixed;">
 <tr>
 
-<td width="22%" valign="top" align="center" style="padding:24px;">
+<td width="32%" valign="top" align="center" style="padding:24px;">
 
 <img src="images/profile.jpg" alt="Profile picture" width="160" height="160" style="border-radius:50%; object-fit:cover;" />
 
@@ -37,7 +37,7 @@
 <td valign="top" style="padding:24px;">
 
 <p align="right">
-<img src="images/cover.jpg" alt="Cover banner" width="840" height="360" style="border-radius:20px; max-width:100%;" />
+<img src="images/cover.jpg" alt="Cover banner" width="840" height="360" style="border-radius:12px; max-width:100%;" />
 </p>
 
 <p style="font-size:1.6em; margin-top:4px;">
