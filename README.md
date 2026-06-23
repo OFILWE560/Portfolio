@@ -37,7 +37,7 @@
 <td valign="top" style="padding:24px;">
 
 <p align="right">
-<img src="images/cover.jpg" alt="Cover banner" width="1140" height='400' style="border-radius:10px; max-width:100%;" />
+<img src="images/cover.jpg" alt="Cover banner" width="340" style="border-radius:8px; max-width:100%;" />
 </p>
 
 <p style="font-size:1.6em; margin-top:4px;">
@@ -104,13 +104,15 @@
 
 <h2 id="projects" style="color:#1a7f37;">PROJECTS</h2>
 
-<h3><a href="https://github.com/OFILWE560/project-one">Project One Name</a></h3>
+<h3>House Price Prediction — Exploratory Data Analysis</h3>
 
-<img src="images/project1.png" alt="Project One screenshot" width="550" />
+<a href="house-price-prediction/house_price_prediction.md">
+<img src="house-price-prediction/heatmap.png" alt="Correlation heatmap of housing features" width="550" style="border-radius:6px;" />
+</a>
 
-<p>A short description: what the project does, the problem it solves, and any notable details.</p>
-<p><strong>Built with:</strong> HTML · CSS · JavaScript</p>
-<p><a href="https://github.com/OFILWE560/project-one">View Repo →</a> &nbsp;|&nbsp; <a href="https://OFILWE560.github.io/project-one">Live Demo →</a></p>
+<p>A full EDA on the classic Boston housing dataset (506 records, 14 features). Covers data cleaning and missing-value imputation, distribution and outlier checks via histograms and boxplots, and a correlation study ranking which features most strongly drive median home value (MEDV) — number of rooms (RM) and % lower-status population (LSTAT) turned out to be the two biggest predictors.</p>
+<p><strong>Built with:</strong> Python · pandas · seaborn · matplotlib</p>
+<p><a href="house-price-prediction/house_price_prediction.md">View Full Notebook →</a></p>
 
 <br>
 
