@@ -1,48 +1,17 @@
-<p align="center">
-  <img src="images/cover.jpg" alt="Cover banner" width="100%" />
-</p>
+<div style="width:100vw; position:relative; left:50%; right:50%; margin-left:-50vw; margin-right:-50vw;">
 
-<table width="100%">
+<img src="images/cover.jpg" alt="Cover banner" style="width:100%; display:block;" />
+
+<table width="100%" style="width:100%; border-collapse:collapse; table-layout:fixed;">
 <tr>
 
-<td width="300" valign="top" align="center">
+<td valign="top" style="padding:24px;">
 
-<img src="images/profile.jpg" alt="Profile picture" width="200" height="200" style="border-radius:50%; object-fit:cover;" />
-
-<h2>OFILWE GABAITSE</h2>
-<h3>Data Analyst</h3>
-
-<a href="https://www.linkedin.com/in/ofilwe-gabaitse/">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-
-<br><br>
-
-<a href="mailto:ofilwegabaitse@gmail.com">
-<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
-
-<br><br>
-
-<a href="https://github.com/OFILWE560">
-<img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
-</a>
-
-<br><br>
-
-<a href="tel:+26777555757">📞 +267 77 555 757</a>
-
-</td>
-
-<td width="40"></td>
-
-<td valign="top">
-
-<p>
-<a href="#about"><b>About</b></a> &nbsp;•&nbsp;
-<a href="#skills"><b>Skills</b></a> &nbsp;•&nbsp;
-<a href="#projects"><b>Projects</b></a> &nbsp;•&nbsp;
-<a href="#contact"><b>Contact</b></a>
+<p style="font-size:1.3em;">
+<a href="#about" style="color:#1a7f37; text-decoration:underline;"><b>About</b></a> &nbsp;•&nbsp;
+<a href="#skills" style="color:#1a7f37; text-decoration:underline;"><b>Skills</b></a> &nbsp;•&nbsp;
+<a href="#projects" style="color:#1a7f37; text-decoration:underline;"><b>Projects</b></a> &nbsp;•&nbsp;
+<a href="#contact" style="color:#1a7f37; text-decoration:underline;"><b>Contact</b></a>
 </p>
 
 <hr>
@@ -147,5 +116,38 @@
 
 </td>
 
+<td width="40"></td>
+
+<td width="260" valign="top" align="center" style="padding:24px;">
+
+<img src="images/profile.jpg" alt="Profile picture" width="160" height="160" style="border-radius:50%; object-fit:cover;" />
+
+<h2>OFILWE GABAITSE</h2>
+<h3>Data Analyst</h3>
+
+<a href="https://www.linkedin.com/in/ofilwe-gabaitse/">
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+
+<br><br>
+
+<a href="mailto:ofilwegabaitse@gmail.com">
+<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
+
+<br><br>
+
+<a href="https://github.com/OFILWE560">
+<img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+<br><br>
+
+<a href="tel:+26777555757">📞 +267 77 555 757</a>
+
+</td>
+
 </tr>
 </table>
+
+</div>
