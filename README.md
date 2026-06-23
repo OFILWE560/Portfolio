@@ -37,7 +37,7 @@
 <td valign="top" style="padding:24px;">
 
 <p align="right">
-<img src="images/cover.jpg" alt="Cover banner" width="840" height="400" style="border-radius:40px; max-width:100%;" />
+<img src="images/cover.jpg" alt="Cover banner" width="840" height="360" style="border-radius:20px; max-width:100%;" />
 </p>
 
 <p style="font-size:1.6em; margin-top:4px;">
