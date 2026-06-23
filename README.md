@@ -1,6 +1,6 @@
 <div style="width:100vw; position:relative; left:50%; right:50%; margin-left:-50vw; margin-right:-50vw;">
 
-<table width="100%" style="width:100%; border-collapse:collapse; table-layout:fixed;">
+<table width="100%" style="width:80%; border-collapse:collapse; table-layout:fixed;">
 <tr>
 
 <td width="22%" valign="top" align="center" style="padding:24px;">
@@ -37,7 +37,7 @@
 <td valign="top" style="padding:24px;">
 
 <p align="right">
-<img src="images/cover.jpg" alt="Cover banner" width="340" style="border-radius:8px; max-width:100%;" />
+<img src="images/cover.jpg" alt="Cover banner" width="840" height="400" style="border-radius:40px; max-width:100%;" />
 </p>
 
 <p style="font-size:1.6em; margin-top:4px;">
