@@ -58,22 +58,20 @@
 <p>The following projects were completed as part of a virtual data analytics internship with Codveda Technologies, a company specializing in IT solutions including AI/ML automation and data analysis. The internship was structured across three progressive levels, and the projects below reflect work done across all three.</p>
 
 <h4>Level 1: Foundational Analytics</h4>
-
-<p><strong>Data Cleaning and Preprocessing</strong> </p>
-
-<p><strong>Exploratory Data Analysis (EDA)</strong> </p>
-
+<ul>
+<li><strong>Data Cleaning and Preprocessing</strong></li>
+<li><strong>Exploratory Data Analysis (EDA)</strong></li>
+</ul>
 <h4>Level 2: Intermediate Analysis</h4>
-
-<p><strong>Time Series Analysis</strong> </p>
-
-<p><strong>Clustering Analysis (K-Means)</strong> </p>
-
+<ul>
+<li><strong>Time Series Analysis</strong></li>
+<li><strong>Clustering Analysis (K-Means)</strong></li>
+</ul>
 <h4>Level 3: Advanced Projects</h4>
-
-<p><strong>Predictive Modeling (Classification)</strong> </p>
-
-<p><strong>Sentiment Analysis (NLP)</strong> </p>
+<ul>
+<li><strong>Predictive Modeling (Classification)</strong></li>
+<li><strong>Sentiment Analysis (NLP)</strong></li>
+</ul>
 
 <h2 id="skills" style="color:#1a7f37;">SKILLS</h2>
 <p>
