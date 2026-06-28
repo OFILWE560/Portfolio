@@ -28,8 +28,6 @@
 
 <br><br>
 
-<a href="tel:+26777555757" style="color:#ffffff;">📞 +267 77 555 757</a>
-
 </td>
 
 <td width="3%"></td>
