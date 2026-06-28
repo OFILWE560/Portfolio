@@ -144,15 +144,15 @@
 <p>A direct follow-on from the EDA project above: same cleaned 506-row Boston housing dataset, now used to build and customize a core set of plot types, bar, line, and scatter, and export them as report-ready images.</p>
 
 <h4>1. Bar Plot: Charles River Proximity</h4>
-<img src="basic_data_visualization/bar_river_avg_price.png" alt="Bar chart comparing average home value on vs off the Charles River" width="500" style="border-radius:6px;" />
+<img src="Basic_Data_Visualization/plot/bar_river_avg_price.png" alt="Bar chart comparing average home value on vs off the Charles River" width="500" style="border-radius:6px;" />
 <p>Average home value for properties on vs. off the Charles River, with values labeled directly on each bar. Riverside homes average noticeably higher, confirming the trend already spotted as a boxplot comparison in the EDA project.</p>
 
 <h4>2. Line Chart: Home Value by Building Age</h4>
-<img src="basic_data_visualization/line_age_trend.png" alt="Line chart of average home value across building age groups" width="500" style="border-radius:6px;" />
+<img src="Basic_Data_Visualization/plot/line_age_trend.png" alt="Line chart of average home value across building age groups" width="500" style="border-radius:6px;" />
 <p>Average home value plotted across binned building-age groups (% of homes built before 1940). The trend line shows older housing stock generally pulling average price down.</p>
 
 <h4>3. Scatter Plot: Rooms vs Home Value</h4>
-<img src="basic_data_visualization/scatter_rm_vs_medv.png" alt="Scatter plot of rooms vs home value, colored by Charles River proximity" width="500" style="border-radius:6px;" />
+<img src="Basic_Data_Visualization/plot/scatter_rm_vs_medv.png" alt="Scatter plot of rooms vs home value, colored by Charles River proximity" width="500" style="border-radius:6px;" />
 <p>Number of rooms plotted against home value, colored by Charles River proximity to add a categorical dimension to a numeric relationship. More rooms tracks with higher price across both groups, with riverside properties sitting consistently above non-riverside ones.</p>
 
 <p><strong>Built with:</strong> Python · pandas · matplotlib · seaborn</p>
