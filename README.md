@@ -135,7 +135,7 @@
 <p>Real-world outcomes are rarely explained by one variable in isolation, so the final step zooms out to see several features at once. A pairplot lays every pairwise relationship side by side, with each feature's own distribution running down the diagonal. <strong>Benefit:</strong> it's the clearest single view of how rooms, deprivation level, and school staffing ratios jointly shape price, exactly the kind of summary that makes the case for which features deserve to carry into a predictive model next.</p>
 
 <p><strong>Built with:</strong> Python · pandas · seaborn · matplotlib</p>
-<p><a href="house_price_prediction/house_price_prediction.ipynb">View Full Notebook →</a></p>
+<p><a href="https://github.com/OFILWE560/Data-Cleaning_EDA/blob/main/house_price_prediction.ipynb">View Full Notebook →</a></p>
 
 <br>
 
