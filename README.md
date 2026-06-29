@@ -102,39 +102,35 @@
 
 <h3>House Price Prediction: Exploratory Data Analysis</h3>
 
-<p>Every data analytics project follows a lifecycle: <strong>define the problem → collect the data → clean it → explore it → analyze/model it → communicate the findings</strong>. This project lives at the cleaning-and-exploration stage, the bridge between raw, messy data and a model anyone could actually trust. Skip this stage and you're modeling on guesswork; do it properly, and every decision made later (which features matter, which model to pick, how confident to be in the result) becomes evidence-based instead of a shot in the dark. Working with the classic 506-row Boston housing dataset, I started with the unglamorous but essential basics checking data types, scanning for missing values and duplicates, standardizing column names the kind of housekeeping that, if skipped, quietly corrupts everything built on top of it. From there, the exploration below began.</p>
+<p>Working with the classic 506-row Boston housing dataset, I started by parsing the raw whitespace-delimited file, naming all 14 columns, and checking data types, missing values, and duplicates. The handful of missing values found were imputed with each column's median, exact duplicate rows were dropped, and every column was force-coerced to numeric, including a validity check that CHAS only ever takes values of 0 or 1, and RAD stays an integer to catch anything that had slipped through as text or a stray format issue. That housekeeping, unglamorous but essential, is what makes every plot below trustworthy. From there, the exploration captured in the dashboard below began.</p>
+
+<img src="house_price_prediction/DASHBOARD.png" alt="Dashboard of 7 numbered EDA visualizations for the Boston housing dataset" width="900" style="border-radius:6px;" />
+
+<p>The numbers below walk through the dashboard panel by panel, in the order the analysis actually unfolded:</p>
 
 <h4>1. Distribution Analysis</h4>
-<img src="house_price_prediction/histogram.png" alt="Histograms of all 14 housing features" width="600" style="border-radius:6px;" />
-<p>Histograms of all 14 features to check shape and skew before any transformation. CRIM and a few others showed heavy skew, flagging exactly where a log transform would be needed before modeling.</p>
+<p>Histograms across all 14 features to check shape and skew before any transformation. CRIM and a few others came back heavily right-skewed, flagging exactly where a log transform would be needed before modeling.</p>
 
 <h4>2. Outlier Detection</h4>
-<img src="house_price_prediction/boxplot.png" alt="Boxplots of all 14 housing features" width="600" style="border-radius:6px;" />
-<p>Boxplots across all 14 features to flag potential outliers. CRIM, ZN, and B showed sharp outliers, marking exactly where extra care would be needed before modeling.</p>
+<p>The same 14 features as boxplots, laid out in a grid to catch outliers a histogram can hide. CRIM, ZN, and B showed sharp outliers, marking exactly where extra care would be needed before modeling.</p>
 
 <h4>3. Group Comparison</h4>
-<img src="house_price_prediction/boxplot2.png" alt="Boxplot comparing home value by Charles River proximity" width="480" style="border-radius:6px;" />
-<p>Compared home values for properties that border the Charles River against those that don't. Riverside homes trend noticeably higher, turning a simple yes/no column into a real pricing signal worth keeping for any future model.</p>
+<p>A boxplot comparing home values for properties that border the Charles River against those that don't. Riverside homes trend noticeably higher, turning a simple yes/no column into a real pricing signal worth keeping for any future model.</p>
 
 <h4>4. Correlation Mapping</h4>
-<img src="house_price_prediction/heatmap.png" alt="Correlation heatmap of all housing features" width="600" style="border-radius:6px;" />
-<p>A heatmap across all 14 features to spot what moves together. TAX and RAD correlate at 0.91, a multicollinearity risk worth flagging before any modeling step.</p>
+<p>A full correlation heatmap across all 14 features to see what moves together. TAX and RAD stood out at 0.91, a multicollinearity risk worth flagging before any modeling step.</p>
 
 <h4>5. Feature Ranking</h4>
-<img src="house_price_prediction/output_15_1.png" alt="Bar chart ranking feature correlation with home value" width="600" style="border-radius:6px;" />
-<p>Ranked every feature by how strongly it correlates with home value (MEDV). RM (rooms) and LSTAT (% lower-status population) emerged as the two strongest levers on price, the clear shortlist for modeling.</p>
+<p>Every feature's correlation with home value (MEDV), ranked as a horizontal bar chart. RM (rooms, r = 0.70) and LSTAT (% lower-status population, r = -0.74) emerged as the two strongest levers on price the clear shortlist for modeling.</p>
 
 <h4>6. Relationship Confirmation</h4>
-<img src="house_price_prediction/scatterplot.png" alt="Scatterplots with regression lines for the top four correlated features" width="600" style="border-radius:6px;" />
-<p>Plotted the four strongest features against price with regression lines to check linearity. RM and LSTAT both trend linearly, confirming they're safe to use as-is in a future linear model.</p>
+<p>The four most strongly correlated features LSTAT, RM, PTRATIO, and INDUS plotted against price with regression lines to check linearity. RM and LSTAT both trend cleanly linear, confirming they're safe to use as-is in a future linear model.</p>
 
 <h4>7. Multivariate View</h4>
-<img src="house_price_prediction/pairplot.png" alt="Pairplot of rooms, lower-status population, pupil-teacher ratio and home value" width="600" style="border-radius:6px;" />
-<p>A pairplot of rooms, lower-status population, pupil-teacher ratio, and price to see how they interact. It's the clearest single view of how these factors jointly shape price.</p>
+<p>A pairplot of rooms, lower-status population, pupil-teacher ratio, and price to see how they interact together, not just pairwise. It's the clearest single view of how these factors jointly shape price.</p>
 
 <p><strong>Built with:</strong> Python · pandas · seaborn · matplotlib</p>
 <p><a href="https://github.com/OFILWE560/Data-Cleaning_EDA/blob/main/house_price_prediction.ipynb">View Full Notebook →</a></p>
-
 <br>
 
 <h3>Basic Data Visualization</h3>
