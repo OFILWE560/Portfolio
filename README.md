@@ -134,24 +134,22 @@
 <br>
 
 <h3>Basic Data Visualization</h3>
-
-<p>A direct follow-on from the EDA project above: same cleaned 506-row Boston housing dataset, now used to build and customize a core set of plot types, bar, line, and scatter, and export them as report-ready images.</p>
+<p>A direct follow-on from the EDA project above: same cleaned 506-row Boston housing dataset, now used to build and customize a core set of plot types bar, line, and scatter and export them as report-ready images. Where the EDA project asked "what's in this data, and can I trust it?", this one asks "what story does it tell once it's clean?"</p>
 
 <h4>1. Bar Plot: Charles River Proximity</h4>
 <img src="house_price_prediction/bar_river_avg_price.png" alt="Bar chart comparing average home value on vs off the Charles River" width="500" style="border-radius:6px;" />
-<p>Average home value for properties on vs. off the Charles River, with values labeled directly on each bar. Riverside homes average noticeably higher, confirming the trend already spotted as a boxplot comparison in the EDA project.</p>
+<p>Average home value for properties on vs. off the Charles River, with the exact figure labeled directly on each bar. Riverside homes average around $28,400 against roughly $22,100 everywhere else, a gap of about $6,300, or nearly 29% higher just for sitting next to the river. It's the same trend spotted as a boxplot comparison in the EDA project, but turning it into two labeled bars makes the size of that premium impossible to miss.</p>
 
 <h4>2. Line Chart: Home Value by Building Age</h4>
 <img src="house_price_prediction/line_age_trend.png" alt="Line chart of average home value across building age groups" width="500" style="border-radius:6px;" />
-<p>Average home value plotted across binned building-age groups (% of homes built before 1940). The trend line shows older housing stock generally pulling average price down.</p>
+<p>Average home value plotted across five binned building-age groups (% of homes in the area built before 1940). Price holds nearly flat through the first two brackets, then tips into a steady decline by the oldest bracket (80–100% pre-1940 housing), average value has dropped to roughly $19,100, down nearly $8,300 from the newest-housing bracket. That oldest bracket alone accounts for almost half of the dataset's 506 suburbs, so an aging local housing stock isn't a rare edge case here it's the dominant pattern quietly pulling the citywide average down.</p>
 
 <h4>3. Scatter Plot: Rooms vs Home Value</h4>
 <img src="house_price_prediction/scatter_rm_vs_medv.png" alt="Scatter plot of rooms vs home value, colored by Charles River proximity" width="500" style="border-radius:6px;" />
-<p>Number of rooms plotted against home value, colored by Charles River proximity to add a categorical dimension to a numeric relationship. More rooms tracks with higher price across both groups, with riverside properties sitting consistently above non-riverside ones.</p>
+<p>Number of rooms plotted against home value, colored by Charles River proximity, to layer a categorical signal onto a numeric relationship. More rooms tracks with higher price in both groups (r ≈ 0.70 off the river, 0.63 on it), but riverside homes don't just have slightly more rooms on average (6.52 vs. 6.27); at almost every comparable room count, the riverside points sit above the rest. The river premium from Plot 1 isn't just a byproduct of bigger houses it holds up across the whole room-count range.</p>
 
 <p><strong>Built with:</strong> Python · pandas · matplotlib · seaborn</p>
 <p><a href="https://github.com/OFILWE560/Basic-Data-Visualization/blob/main/data_visualization.ipynb">View Full Notebook →</a></p>
-
 <br>
 
 <h3><a href="https://github.com/OFILWE560/project-two">Project Two Name</a></h3>
