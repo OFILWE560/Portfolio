@@ -156,7 +156,7 @@
 
 <p>This task starts with a simple question: if you know where a stock opens, how well can you predict where it closes? Working with daily price data across 505 stocks over four years, I framed it as the simplest version of that question, a single predictor, a single target, trained on properly cleaned data (19 rows with missing prices dropped, no duplicates or invalid values found).</p>
 
-<img src="regression_analysis/regression_open_vs_close.png" alt="Scatter plot of open vs close price with fitted regression line" width="600" style="border-radius:6px;" />
+<img src="images/regression_open_vs_close.png" alt="Scatter plot of open vs close price with fitted regression line" width="600" style="border-radius:6px;" />
 
 <p>The plot is where the real story shows up. Plotting the fitted line against actual open/close pairs, the points hug that line so tightly, across everything from penny stocks to one trading near $1,300, that the scatter almost disappears underneath it. That's not just a good fit (R² of 0.9997), it's evidence that closing price carries almost no information the opening price didn't already contain. The slope sits at virtually exactly 1.0 with an intercept near zero: on an average day, a stock's close <em>is</em> its open.</p>
 
