@@ -41,7 +41,7 @@
 <p style="font-size:1.6em; margin-top:4px;">
 <a href="#about" style="color:#1a7f37; text-decoration:underline;"><b>About</b></a> &nbsp;•&nbsp;
 <a href="#skills" style="color:#1a7f37; text-decoration:underline;"><b>Skills</b></a> &nbsp;•&nbsp;
-<a href="#projects" style="color:#1a7f37; text-decoration:underline;"><b>Projects</b></a> &nbsp;•&nbsp;
+<a href="#projects" style="color:#1a7f37; text-decoration:underline;"><b>Internship Projects</b></a> &nbsp;•&nbsp;
 <a href="#contact" style="color:#1a7f37; text-decoration:underline;"><b>Contact</b></a>
 </p>
 
@@ -51,25 +51,7 @@
 
 <p>I'm a final-year Business Intelligence and Data Analytics student with a passion for turning raw data into meaningful insights. My work sits at the intersection of analytical thinking and practical problem-solving, whether that's writing clean Python pipelines, building visual dashboards, or applying machine learning to real-world questions. This portfolio showcases projects completed across different levels of complexity, from foundational data work to predictive modeling and NLP.</p>
 
-<h3>Codveda Technologies Internship Projects</h3>
 
-<p>The following projects were completed as part of a virtual data analytics internship with Codveda Technologies, a company specializing in IT solutions including AI/ML automation and data analysis. The internship was structured across three progressive levels, and the projects below reflect work done across all three.</p>
-
-<h4>Level 1: Foundational Analytics</h4>
-<ul>
-<li><strong>Data Cleaning and Preprocessing</strong></li>
-<li><strong>Exploratory Data Analysis (EDA)</strong></li>
-</ul>
-<h4>Level 2: Intermediate Analysis</h4>
-<ul>
-<li><strong>Time Series Analysis</strong></li>
-<li><strong>Clustering Analysis (K-Means)</strong></li>
-</ul>
-<h4>Level 3: Advanced Projects</h4>
-<ul>
-<li><strong>Predictive Modeling (Classification)</strong></li>
-<li><strong>Sentiment Analysis (NLP)</strong></li>
-</ul>
 
 <h2 id="skills" style="color:#1a7f37;">SKILLS</h2>
 <p>
@@ -98,7 +80,30 @@
 
 <hr>
 
-<h2 id="projects" style="color:#1a7f37;">PROJECTS</h2>
+<h2 id="projects" style="color:#1a7f37;">INTERNSHIP PROJECTS</h2>
+
+<h3>Codveda Technologies Internship Projects</h3>
+
+<p>The following projects were completed as part of a virtual data analytics internship with Codveda Technologies, a company specializing in IT solutions including AI/ML automation and data analysis. The internship was structured across three progressive levels, and the projects below reflect work done across all three.</p>
+
+<h4>Level 1: Foundational Analytics</h4>
+<ul>
+<li><strong>Data Cleaning and Preprocessing</strong></li>
+<li><strong>Exploratory Data Analysis (EDA)</strong></li>
+<li><strong>Basic Data Visualization</strong></li>  
+</ul>
+<h4>Level 2: Intermediate Analysis</h4>
+<ul>
+<li><strong>Regression Analysis</strong></li>  
+<li><strong>Time Series Analysis</strong></li>
+<li><strong>Clustering Analysis (K-Means)</strong></li>
+</ul>
+<h4>Level 3: Advanced Projects</h4>
+<ul>
+<li><strong>Predictive Modeling (Classification)</strong></li>
+<li><strong>Building Dashboards with PowerBI</strong></li>  
+<li><strong>Sentiment Analysis (NLP)</strong></li>
+</ul>
 
 <h3>House Price Prediction: Exploratory Data Analysis</h3>
 
@@ -108,26 +113,48 @@
 
 <p>The numbers below walk through the dashboard panel by panel, in the order the analysis actually unfolded:</p>
 
-<h4>1. Distribution Analysis</h4>
-<p>Histograms across all 14 features to check shape and skew before any transformation. CRIM and a few others came back heavily right-skewed, flagging exactly where a log transform would be needed before modeling.</p>
-
-<h4>2. Outlier Detection</h4>
-<p>The same 14 features as boxplots, laid out in a grid to catch outliers a histogram can hide. CRIM, ZN, and B showed sharp outliers, marking exactly where extra care would be needed before modeling.</p>
-
-<h4>3. Group Comparison</h4>
-<p>A boxplot comparing home values for properties that border the Charles River against those that don't. Riverside homes trend noticeably higher, turning a simple yes/no column into a real pricing signal worth keeping for any future model.</p>
-
-<h4>4. Correlation Mapping</h4>
-<p>A full correlation heatmap across all 14 features to see what moves together. TAX and RAD stood out at 0.91, a multicollinearity risk worth flagging before any modeling step.</p>
-
-<h4>5. Feature Ranking</h4>
-<p>Every feature's correlation with home value (MEDV), ranked as a horizontal bar chart. RM (rooms, r = 0.70) and LSTAT (% lower-status population, r = -0.74) emerged as the two strongest levers on price the clear shortlist for modeling.</p>
-
-<h4>6. Relationship Confirmation</h4>
-<p>The four most strongly correlated features LSTAT, RM, PTRATIO, and INDUS plotted against price with regression lines to check linearity. RM and LSTAT both trend cleanly linear, confirming they're safe to use as-is in a future linear model.</p>
-
-<h4>7. Multivariate View</h4>
-<p>A pairplot of rooms, lower-status population, pupil-teacher ratio, and price to see how they interact together, not just pairwise. It's the clearest single view of how these factors jointly shape price.</p>
+<table style="width:100%; border-collapse:collapse;">
+<tr style="background-color:#1a7f37; color:#ffffff; text-align:left;">
+<th style="padding:10px; border:1px solid #ddd; width:4%;">#</th>
+<th style="padding:10px; border:1px solid #ddd; width:20%;">Step</th>
+<th style="padding:10px; border:1px solid #ddd;">What it shows</th>
+</tr>
+<tr>
+<td style="padding:10px; border:1px solid #ddd;">1</td>
+<td style="padding:10px; border:1px solid #ddd;"><strong>Distribution Analysis</strong></td>
+<td style="padding:10px; border:1px solid #ddd;">Histograms across all 14 features to check shape and skew before any transformation. CRIM and a few others came back heavily right-skewed, flagging exactly where a log transform would be needed before modeling.</td>
+</tr>
+<tr style="background-color:#f6f8fa;">
+<td style="padding:10px; border:1px solid #ddd;">2</td>
+<td style="padding:10px; border:1px solid #ddd;"><strong>Outlier Detection</strong></td>
+<td style="padding:10px; border:1px solid #ddd;">The same 14 features as boxplots, laid out in a grid to catch outliers a histogram can hide. CRIM, ZN, and B showed sharp outliers, marking exactly where extra care would be needed before modeling.</td>
+</tr>
+<tr>
+<td style="padding:10px; border:1px solid #ddd;">3</td>
+<td style="padding:10px; border:1px solid #ddd;"><strong>Group Comparison</strong></td>
+<td style="padding:10px; border:1px solid #ddd;">A boxplot comparing home values for properties that border the Charles River against those that don't. Riverside homes trend noticeably higher, turning a simple yes/no column into a real pricing signal worth keeping for any future model.</td>
+</tr>
+<tr style="background-color:#f6f8fa;">
+<td style="padding:10px; border:1px solid #ddd;">4</td>
+<td style="padding:10px; border:1px solid #ddd;"><strong>Correlation Mapping</strong></td>
+<td style="padding:10px; border:1px solid #ddd;">A full correlation heatmap across all 14 features to see what moves together. TAX and RAD stood out at 0.91, a multicollinearity risk worth flagging before any modeling step.</td>
+</tr>
+<tr>
+<td style="padding:10px; border:1px solid #ddd;">5</td>
+<td style="padding:10px; border:1px solid #ddd;"><strong>Feature Ranking</strong></td>
+<td style="padding:10px; border:1px solid #ddd;">Every feature's correlation with home value (MEDV), ranked as a horizontal bar chart. RM (rooms, r = 0.70) and LSTAT (% lower-status population, r = -0.74) emerged as the two strongest levers on price, the clear shortlist for modeling.</td>
+</tr>
+<tr style="background-color:#f6f8fa;">
+<td style="padding:10px; border:1px solid #ddd;">6</td>
+<td style="padding:10px; border:1px solid #ddd;"><strong>Relationship Confirmation</strong></td>
+<td style="padding:10px; border:1px solid #ddd;">The four most strongly correlated features, LSTAT, RM, PTRATIO, and INDUS, plotted against price with regression lines to check linearity. RM and LSTAT both trend cleanly linear, confirming they're safe to use as-is in a future linear model.</td>
+</tr>
+<tr>
+<td style="padding:10px; border:1px solid #ddd;">7</td>
+<td style="padding:10px; border:1px solid #ddd;"><strong>Multivariate View</strong></td>
+<td style="padding:10px; border:1px solid #ddd;">A pairplot of rooms, lower-status population, pupil-teacher ratio, and price to see how they interact together, not just pairwise. It's the clearest single view of how these factors jointly shape price.</td>
+</tr>
+</table>
 
 <p><strong>Built with:</strong> Python · pandas · seaborn · matplotlib</p>
 <p><a href="https://github.com/OFILWE560/Data-Cleaning_EDA/blob/main/house_price_prediction.ipynb">View Full Notebook →</a></p>
