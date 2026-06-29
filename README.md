@@ -152,6 +152,19 @@
 <p><a href="https://github.com/OFILWE560/Basic-Data-Visualization/blob/main/data_visualization.ipynb">View Full Notebook →</a></p>
 <br>
 
+<h3>Regression Analysis: Predicting Stock Close Price from Open Price</h3>
+
+<p>This task starts with a simple question: if you know where a stock opens, how well can you predict where it closes? Working with daily price data across 505 stocks over four years, I framed it as the simplest version of that question, a single predictor, a single target, trained on properly cleaned data (19 rows with missing prices dropped, no duplicates or invalid values found).</p>
+
+<img src="regression_analysis/regression_open_vs_close.png" alt="Scatter plot of open vs close price with fitted regression line" width="600" style="border-radius:6px;" />
+
+<p>The plot is where the real story shows up. Plotting the fitted line against actual open/close pairs, the points hug that line so tightly, across everything from penny stocks to one trading near $1,300, that the scatter almost disappears underneath it. That's not just a good fit (R² of 0.9997), it's evidence that closing price carries almost no information the opening price didn't already contain. The slope sits at virtually exactly 1.0 with an intercept near zero: on an average day, a stock's close <em>is</em> its open.</p>
+
+<p><strong>Insight:</strong> the model's accuracy is, in a sense, a little misleading. It's not finding a clever pattern, it's confirming that most days, very little happens. The part that actually matters to a trader, the tiny sliver of deviation scattered around that line, is exactly the part this simple model treats as noise rather than signal.</p>
+
+<p><strong>Built with:</strong> Python · pandas · scikit-learn · matplotlib</p>
+<p><a href="https://github.com/OFILWE560/regression_analysis/blob/main/regression%20analysis.ipynb">View Full Notebook →</a></p>
+
 <h3><a href="https://github.com/OFILWE560/project-two">Project Two Name</a></h3>
 
 <img src="images/project2.png" alt="Project Two screenshot" width="550" />
