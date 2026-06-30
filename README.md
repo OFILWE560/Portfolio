@@ -192,6 +192,27 @@
 <p><strong>Built with:</strong> Python · pandas · scikit-learn · matplotlib</p>
 <p><a href="https://github.com/OFILWE560/regression_analysis/blob/main/regression%20analysis.ipynb">View Full Notebook →</a></p>
 
+<h3>Time Series Analysis: Decomposing AAPL's Four-Year Price Story</h3>
+
+<p>This task asks a different question than the regression one: not "what predicts price today" but "what shape does price take over time, and is there a pattern hiding underneath the noise?" Since the raw dataset mixes 505 different stocks together, the first real step was isolating a single one, AAPL, to get a genuine daily time series: 1,007 trading days from January 2014 to December 2017, with no gaps or duplicate dates.</p>
+
+<h4>1. The Raw Signal</h4>
+<img src="images/ts_raw.png" alt="AAPL closing price 2014-2017" width="600" style="border-radius:6px;" />
+<p>Plotted on its own, AAPL's closing price tells a deceptively simple story at first glance: an upward climb from roughly $75 to $175 over four years. But look closer and that climb isn't a straight line, it's three distinct cycles: a strong run-up through 2014 into mid-2015, a drawn-out decline and stagnation through most of 2016, and a sharp acceleration through 2017.</p>
+
+<h4>2. Decomposition</h4>
+<img src="images/ts_decompose.png" alt="Trend, seasonal, and residual decomposition of AAPL closing price" width="600" style="border-radius:6px;" />
+<p>Breaking the series into trend, seasonality, and residual components turns that visual impression into something structural. The trend line confirms the dip is real: it bottoms out in late 2016 before the climb resumes. The seasonal component is the more surprising find, a repeating yearly shape shows up four times in a row, prices tend to rise into the middle of the year and dip toward year-end, though with only four cycles in the data, it's not yet enough evidence to call it a reliable effect rather than coincidence. The residual panel is the honesty check: real volatility remains even after removing trend and seasonality, and it visibly widens during the 2016 downturn.</p>
+
+<h4>3. Smoothing</h4>
+<img src="images/ts_ma.png" alt="AAPL closing price with 30-day and 90-day moving averages" width="600" style="border-radius:6px;" />
+<p>The 30-day average tracks the actual price closely and reacts fast to swings, useful for spotting short-term momentum. The 90-day average lags more but filters out day-to-day noise almost entirely, leaving the cleanest view of the underlying trend. The gap between the two lines becomes its own signal: when the 30-day average pulls above the 90-day, the stock is gaining momentum; when it dips below, that's the slowdown phase showing up before the raw price makes it obvious.</p>
+
+<p><strong>Insight:</strong> a four-year climb that looks smooth at a glance is actually three distinct phases stitched together, with a real (if not yet statistically certain) seasonal rhythm running underneath, and a volatility spike during the one period the trend wasn't cooperating.</p>
+
+<p><strong>Built with:</strong> Python · pandas · statsmodels · matplotlib</p>
+<p><a href="https://github.com/OFILWE560/Stock-Analytics/blob/main/Time%20Series.ipynb">View Full Notebook →</a></p>
+
 <h3><a href="https://github.com/OFILWE560/project-two">Project Two Name</a></h3>
 
 <img src="images/project2.png" alt="Project Two screenshot" width="550" />
