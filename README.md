@@ -222,7 +222,7 @@
 <p>Before fitting anything, the four features had to be standardized. Trading volume runs in the millions; daily return is a fraction of a percent. Left unscaled, volume alone would have decided every cluster, and the algorithm would never have gotten to see return or volatility at all.</p>
 
 <h4>1. Finding the Right Number of Clusters</h4>
-<img src="level2_analytics/elbow.png" alt="Elbow method plot showing inertia across k=1 to 10" width="550" style="border-radius:6px;" />
+<img src="images/elbow.png" alt="Elbow method plot showing inertia across k=1 to 10" width="550" style="border-radius:6px;" />
 <p>The elbow method made the next decision. Plotting inertia against cluster count, the curve drops sharply through k=2 and k=3, then visibly flattens out: past k=4, adding more clusters barely improves the fit. That's the model saying four groups capture the real structure in the data, anything beyond that is just slicing noise.</p>
 
 <h4>2. The Clusters Themselves</h4>
