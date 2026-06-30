@@ -213,6 +213,27 @@
 <p><strong>Built with:</strong> Python · pandas · statsmodels · matplotlib</p>
 <p><a href="https://github.com/OFILWE560/Stock-Analytics/blob/main/Time%20Series.ipynb">View Full Notebook →</a></p>
 
+<h3>Clustering Analysis: What Do Stocks Actually Group By?</h3>
+
+<p>The first two tasks asked narrow questions about price behavior, does open predict close, what shape does one stock's history take over time. This one asks something broader: across hundreds of different stocks, do natural groupings emerge, and if so, what defines them?</p>
+
+<p>The dataset itself made this harder than it sounds. It's panel data: 505 stocks stacked on top of each other as daily rows, which means clustering the raw rows would mostly just cluster <em>days</em>, not <em>stocks</em>. So the real first step wasn't modeling, it was reframing the problem: collapse each stock down to one row summarizing how it behaves, its average daily return, its volatility, its typical trading volume, its typical price, and cluster on that instead. Only stocks with a complete four-year trading history made the cut, so no comparison was skewed by a stock that only existed for a few months of the dataset.</p>
+
+<p>Before fitting anything, the four features had to be standardized. Trading volume runs in the millions; daily return is a fraction of a percent. Left unscaled, volume alone would have decided every cluster, and the algorithm would never have gotten to see return or volatility at all.</p>
+
+<h4>1. Finding the Right Number of Clusters</h4>
+<img src="level2_analytics/elbow.png" alt="Elbow method plot showing inertia across k=1 to 10" width="550" style="border-radius:6px;" />
+<p>The elbow method made the next decision. Plotting inertia against cluster count, the curve drops sharply through k=2 and k=3, then visibly flattens out: past k=4, adding more clusters barely improves the fit. That's the model saying four groups capture the real structure in the data, anything beyond that is just slicing noise.</p>
+
+<h4>2. The Clusters Themselves</h4>
+<img src="images/cluster_scatter.png" alt="Scatter plot of stock clusters by volatility vs average daily return" width="600" style="border-radius:6px;" />
+<p>The four clusters that emerged weren't random, they read like a map of distinct market behaviors. A large, dominant cluster of mainstream stocks: moderate returns, low volatility, the steady core of the market. A second, smaller cluster of genuinely high-volatility stocks, with the widest swings in both directions and, notably, the <em>lowest</em> average return of any group, a reminder that more risk doesn't automatically buy more reward. A third, tiny cluster of expensive, low-volume names, priced high enough that fewer shares change hands day to day. And a fourth, equally small cluster of high-volume, low-price stocks, trading enormous quantities of shares at low individual prices, behaving almost like a different asset class entirely.</p>
+
+<p><strong>Insight:</strong> the model was never told which company was which. It only saw four numbers per stock. And yet what it surfaced lines up with how anyone who follows markets would intuitively sort them, proof the four features chosen were actually capturing something real about how these stocks behave, not just noise that happened to cluster.</p>
+
+<p><strong>Built with:</strong> Python · pandas · scikit-learn · matplotlib · seaborn</p>
+<p><a href="https://github.com/OFILWE560/Stock-Analytics/blob/main/Clustering%20Analysis.ipynb">View Full Notebook →</a></p>
+
 <h3><a href="https://github.com/OFILWE560/project-two">Project Two Name</a></h3>
 
 <img src="images/project2.png" alt="Project Two screenshot" width="550" />
