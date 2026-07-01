@@ -234,24 +234,6 @@
 <p><strong>Built with:</strong> Python · pandas · scikit-learn · matplotlib · seaborn</p>
 <p><a href="https://github.com/OFILWE560/Stock-Analytics/blob/main/Clustering%20Analysis.ipynb">View Full Notebook →</a></p>
 
-<h3><a href="https://github.com/OFILWE560/project-two">Project Two Name</a></h3>
-
-<img src="images/project2.png" alt="Project Two screenshot" width="550" />
-
-<p>A short description of this project and what you learned building it.</p>
-<p><strong>Built with:</strong> Python · Flask</p>
-<p><a href="https://github.com/OFILWE560/project-two">View Repo →</a> &nbsp;|&nbsp; <a href="https://OFILWE560.github.io/project-two">Live Demo →</a></p>
-
-<br>
-
-<h3><a href="https://github.com/OFILWE560/project-three">Project Three Name</a></h3>
-
-<img src="images/project3.png" alt="Project Three screenshot" width="550" />
-
-<p>A short description of this project.</p>
-<p><strong>Built with:</strong> Power BI · SQL</p>
-<p><a href="https://github.com/OFILWE560/project-three">View Repo →</a> &nbsp;|&nbsp; <a href="https://OFILWE560.github.io/project-three">Live Demo →</a></p>
-
 <hr>
 
 <h2 id="contact" style="color:#1a7f37;">CONTACT</h2>
