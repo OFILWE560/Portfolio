@@ -105,58 +105,16 @@
 <li><strong>Sentiment Analysis (NLP)</strong></li>
 </ul>
 
-<h3>House Price Prediction: Exploratory Data Analysis</h3>
+<h3>Level 1 House Price Prediction: Exploratory Data Analysis</h3>
 
-<p>Working with the classic 506-row Boston housing dataset, I started by parsing the raw whitespace-delimited file, naming all 14 columns, and checking data types, missing values, and duplicates. The handful of missing values found were imputed with each column's median, exact duplicate rows were dropped, and every column was force-coerced to numeric, including a validity check that CHAS only ever takes values of 0 or 1, and RAD stays an integer to catch anything that had slipped through as text or a stray format issue. That housekeeping, unglamorous but essential, is what makes every plot below trustworthy. From there, the exploration captured in the dashboard below began.</p>
+<img src="images/eda.png" alt="Dashboard of 7 numbered EDA visualizations for the Boston housing dataset" width="900" style="border-radius:6px;" />
 
-<img src="house_price_prediction/DASHBOARD.png" alt="Dashboard of 7 numbered EDA visualizations for the Boston housing dataset" width="900" style="border-radius:6px;" />
-
-<p>The numbers below walk through the dashboard panel by panel, in the order the analysis actually unfolded:</p>
-
-<table style="width:100%; border-collapse:collapse;">
-<tr style="background-color:#1a7f37; color:#ffffff; text-align:left;">
-<th style="padding:10px; border:1px solid #ddd; width:4%;">#</th>
-<th style="padding:10px; border:1px solid #ddd; width:20%;">Step</th>
-<th style="padding:10px; border:1px solid #ddd;">What it shows</th>
-</tr>
-<tr>
-<td style="padding:10px; border:1px solid #ddd;">1</td>
-<td style="padding:10px; border:1px solid #ddd;"><strong>Distribution Analysis</strong></td>
-<td style="padding:10px; border:1px solid #ddd;">Histograms across all 14 features to check shape and skew before any transformation. CRIM and a few others came back heavily right-skewed, flagging exactly where a log transform would be needed before modeling.</td>
-</tr>
-<tr style="background-color:#f6f8fa;">
-<td style="padding:10px; border:1px solid #ddd;">2</td>
-<td style="padding:10px; border:1px solid #ddd;"><strong>Outlier Detection</strong></td>
-<td style="padding:10px; border:1px solid #ddd;">The same 14 features as boxplots, laid out in a grid to catch outliers a histogram can hide. CRIM, ZN, and B showed sharp outliers, marking exactly where extra care would be needed before modeling.</td>
-</tr>
-<tr>
-<td style="padding:10px; border:1px solid #ddd;">3</td>
-<td style="padding:10px; border:1px solid #ddd;"><strong>Group Comparison</strong></td>
-<td style="padding:10px; border:1px solid #ddd;">A boxplot comparing home values for properties that border the Charles River against those that don't. Riverside homes trend noticeably higher, turning a simple yes/no column into a real pricing signal worth keeping for any future model.</td>
-</tr>
-<tr style="background-color:#f6f8fa;">
-<td style="padding:10px; border:1px solid #ddd;">4</td>
-<td style="padding:10px; border:1px solid #ddd;"><strong>Correlation Mapping</strong></td>
-<td style="padding:10px; border:1px solid #ddd;">A full correlation heatmap across all 14 features to see what moves together. TAX and RAD stood out at 0.91, a multicollinearity risk worth flagging before any modeling step.</td>
-</tr>
-<tr>
-<td style="padding:10px; border:1px solid #ddd;">5</td>
-<td style="padding:10px; border:1px solid #ddd;"><strong>Feature Ranking</strong></td>
-<td style="padding:10px; border:1px solid #ddd;">Every feature's correlation with home value (MEDV), ranked as a horizontal bar chart. RM (rooms, r = 0.70) and LSTAT (% lower-status population, r = -0.74) emerged as the two strongest levers on price, the clear shortlist for modeling.</td>
-</tr>
-<tr style="background-color:#f6f8fa;">
-<td style="padding:10px; border:1px solid #ddd;">6</td>
-<td style="padding:10px; border:1px solid #ddd;"><strong>Relationship Confirmation</strong></td>
-<td style="padding:10px; border:1px solid #ddd;">The four most strongly correlated features, LSTAT, RM, PTRATIO, and INDUS, plotted against price with regression lines to check linearity. RM and LSTAT both trend cleanly linear, confirming they're safe to use as-is in a future linear model.</td>
-</tr>
-<tr>
-<td style="padding:10px; border:1px solid #ddd;">7</td>
-<td style="padding:10px; border:1px solid #ddd;"><strong>Multivariate View</strong></td>
-<td style="padding:10px; border:1px solid #ddd;">A pairplot of rooms, lower-status population, pupil-teacher ratio, and price to see how they interact together, not just pairwise. It's the clearest single view of how these factors jointly shape price.</td>
-</tr>
-</table>
-
-<p><strong>Built with:</strong> Python · pandas · seaborn · matplotlib</p>
+<p><strong>Built with:</strong><br>
+<img src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=3776AB" alt="Python">
+<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas">
+<img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=plotly&logoColor=white" alt="Matplotlib">
+<img src="https://img.shields.io/badge/Seaborn-1B1F3B?style=for-the-badge&logo=python&logoColor=76B5C5" alt="Seaborn">
+</p>
 <p><a href="https://github.com/OFILWE560/Data-Cleaning_EDA/blob/main/house_price_prediction.ipynb">View Full Notebook →</a></p>
 <br>
 
