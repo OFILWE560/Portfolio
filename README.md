@@ -40,7 +40,7 @@
 
 <p style="font-size:1.6em; margin-top:4px;">
 <a href="#about" style="color:#1a7f37; text-decoration:underline;"><b>About</b></a> &nbsp;•&nbsp;
-<a href="#skills" style="color:#1a7f37; text-decoration:underline;"><b>Skills</b></a> &nbsp;•&nbsp;
+<a href="#skills" style="color:#1a7f37; text-decoration:underline;"><b>Tools</b></a> &nbsp;•&nbsp;
 <a href="#projects" style="color:#1a7f37; text-decoration:underline;"><b>Internship Projects</b></a> &nbsp;•&nbsp;
 <a href="#contact" style="color:#1a7f37; text-decoration:underline;"><b>Contact</b></a>
 </p>
@@ -49,7 +49,7 @@
 
 <h2 id="about" style="color:#1a7f37;">ABOUT</h2>
 
-<p>I'm a final-year Business Intelligence and Data Analytics student with a passion for turning raw data into meaningful insights. My work sits at the intersection of analytical thinking and practical problem-solving, whether that's writing clean Python pipelines, building visual dashboards, or applying machine learning to real-world questions. This portfolio showcases projects completed across different levels of complexity, from foundational data work to predictive modeling and NLP.</p>
+<p>I'm a completed student in Business Intelligence and Data Analytics with a passion for turning raw data into meaningful insights. My work sits at the intersection of analytical thinking and practical problem-solving, whether that's writing clean Python pipelines, building visual dashboards, or applying machine learning to real-world questions. This portfolio showcases projects completed across different levels of complexity, from foundational data work to predictive modeling and NLP.</p>
 
 
 
