@@ -147,7 +147,7 @@
 </p>
 <p><a href="https://github.com/OFILWE560/Stock-Analytics/blob/main/Clustering%20Analysis.ipynb">View Full Notebook →</a></p>
 
-<h3>Predictive Modelling: Customer Churn Prediction</h3>
+<h3> Level 3 Predictive Modelling: Customer Churn Prediction</h3>
 
 <img src="pred.png" alt="" width="1100" style="border-radius:6px;" />
 
