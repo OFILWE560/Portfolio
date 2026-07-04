@@ -169,7 +169,7 @@
 
 <h3>Predictive Modelling: Customer Churn Prediction</h3>
 
-<img src="clust.png" alt="" width="1100" style="border-radius:6px;" />
+<img src="pred.png" alt="" width="1100" style="border-radius:6px;" />
 
 <p><strong>Built with:</strong><br>
 <img src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=3776AB" alt="Python">
@@ -182,7 +182,7 @@
 
 <h3>Natural Language Processing: Sentiment Analysis</h3>
 
-<img src="clust.png" alt="" width="1100" style="border-radius:6px;" />
+<img src="sent.png" alt="" width="1100" style="border-radius:6px;" />
 
 <p><strong>Built with:</strong><br>
 <img src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=3776AB" alt="Python">
