@@ -87,7 +87,7 @@
 
 <h3>Telecom Churn Dashboard - Power BI</h3>
 
-<img src="churn.png" alt="Customer Churn Dashboard" width="1100" style="border-radius:6px;" />
+<img src="churn2.png" alt="Customer Churn Dashboard" width="1100" style="border-radius:6px;" />
 
 <p><strong>Built with:</strong><br>
 <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI">
