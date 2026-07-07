@@ -85,6 +85,15 @@
 <li><strong>Sentiment Analysis (NLP)</strong></li>
 </ul>
 
+<h3>Telecom Churn Dashboard - Power BI</h3>
+
+<img src="churn.png" alt="Customer Churn Dashboard" width="1100" style="border-radius:6px;" />
+
+<p><strong>Built with:</strong><br>
+<img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI">
+</p>
+<p><a href="https://github.com/OFILWE560/Telecom-Churn-Dashboard-Power-BI">View Report →</a></p>
+
 <h3>Level 1 House Price Prediction: Exploratory Data Analysis</h3>
 
 <img src="eda.png" alt="Dashboard of 7 numbered EDA visualizations for the Boston housing dataset" width="1000" style="border-radius:6px;" />
